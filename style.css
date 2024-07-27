@@ -1,0 +1,57 @@
+.image {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+body{
+    background-color: rgb(1, 1, 88);
+
+}
+nav div {
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: rgb(4, 114, 161);
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 3rem;
+}
+.item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.button {
+    position: absolute;
+    width: 80%;
+}
+.bt {
+    position: absolute;
+    bottom: -80px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 05px;
+    cursor: pointer;
+}
+
+.bt:hover:hover {
+    background-color: #120252;
+}
+#previous {
+    left: 10%;
+}
+
+#next {
+    right: 10%;
+}
